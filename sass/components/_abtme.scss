@@ -1,0 +1,35 @@
+#abt-me {
+    color: lightblue;
+    margin-top: 2em;
+}
+
+#pic-of-me {
+    margin-top: 50px;
+    margin-left: 50px;
+    align-content: end;
+}
+
+#pic-of-me img {
+    width: auto;
+    height: auto;
+    border: 5px solid lightblue;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#abt-me-text {
+    align-content: left;
+}
+
+#abt-me-text h2 {
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 3em;
+    text-align: left;
+}
+
+#abt-me-text p {
+    font-size: 1.5em;
+    padding: 20px;
+    color: darkblue;
+}
