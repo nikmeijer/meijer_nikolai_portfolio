@@ -1,0 +1,72 @@
+#hero {}
+
+#hero h2 {
+    text-align: center;
+    font-size: 5.6em;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+#hero h3 {
+    font-size: 4em;
+    padding-bottom: 10px;
+    text-align: right;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+#name {
+    color: darkblue;
+    font-size: 4em;
+    text-align: left;
+    padding-bottom: 10px;
+    margin-left: -20px;
+    font-weight: bold;
+}
+
+#name:hover {
+    color: lightblue;
+}
+
+#hero-cta {
+    font-size: 2.6em;
+    text-align: center;
+    padding-top: 120px;
+}
+
+@media screen and (max-width: 768px) {
+    #hero h2 {
+        text-align: center;
+        font-size: 32px;
+        margin-top: 185px;
+        padding: 20px;
+    }
+
+    #hero h3 {
+        font-size: 26px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: right;
+        margin-right: -8px;
+    }
+
+    #name {
+        color: darkblue;
+        font-size: 26px;
+        text-align: left;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: -8px;
+    }
+
+    #name:hover {
+        color: lightblue;
+        font-weight: bold;
+    }
+
+    #hero-cta {
+        font-size: 14px;
+        text-align: center;
+        padding-top: 20px;
+    }
+}
