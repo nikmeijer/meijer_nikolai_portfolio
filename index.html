@@ -20,14 +20,26 @@
     <header class="grid-con">
         <h2 class="hidden">Header</h2>
         <div id="header-logo" class="col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 ">
-            <img src="#" alt="#">
+            <img id="logo" src="images/nm-logo.svg" alt="N M Logo">
+            <!-- Wanted to try and make hover effect for logo however had trouble making it work -->
+            <!--<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 153 162.18">
+                <g id="Layer_2-2">
+                    <circle cx="76.5" cy="85.68" r="76.5" stroke-width="0" />
+                    <polygon points="37.04 135 75.03 36 75.03 36 54.34 36 16.35 135 37.04 135" fill="#fff" stroke-width="0" />
+                    <polygon points="94.74 115.76 94.74 135.25 114.7 135.25 114.7 63.77 94.74 115.76" fill="#fff"
+                        stroke-width="0" />
+                    <rect x="60.36" y="36" width="14.67" height="99" fill="#fff" stroke-width="0" />
+                    <polygon points="81.04 135 132.77 .15 131.75 0 112.15 0 60.36 135 81.04 135" fill="#fff" stroke-width="0" />
+                    <path d="m123.2,25.1L132.77.15l-1.02-.15h-19.6l-5.83,15.21c6.07,2.57,11.73,5.92,16.88,9.9Z" stroke-width="0" />
+                </g>
+            </svg>-->
         </div>
         <nav class="m-col-span-9 l-col-span-9 xl-col-span-9 ">
             <h2 class="hidden">Nav</h2>
             <ul>
                 <li><a href="projects.html">Products</a></li>
                 <li><a href="case-stud.html">Case Studies</a></li>
-                <li><a href="index.html#about-me">About Me</a></li>
+                <li><a href="index.html#abt-me">About Me</a></li>
                 <li><a href="index.html#contact">Contact</a></li>
             </ul>
         </nav>
@@ -40,7 +52,7 @@
                 <ul>
                     <li><a href="projects.html">Products</a></li>
                     <li><a href="case-stud.html">Case Studies</a></li>
-                    <li><a href="index.html#about-me">About Me</a></li>
+                    <li><a href="index.html#abt-me">About Me</a></li>
                     <li><a href="index.html#contact">Contact</a></li>
                 </ul>
             </div>
@@ -56,8 +68,31 @@
         <p id="name" class="col-span-2 m-col-span-6 l-col-span-6 xl-col-span-6">Nikolai Meijer</p>
         <p id="hero-cta" class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12">I'm the designer you've been
             looking for.</p>
+        <p id="pls-scroll" class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12"><a
+                href="index.html#abt-me">Learn
+                More<br>V</a></p>
     </section>
-
+    <section id="abt-me" class="grid-con">
+        <h2 class="hidden">About me</h2>
+        <div id="pic-of-me" class="col-span-2 m-col-span-6 l-col-span-6 xl-col-span-6">
+            <h2 class="hidden">photo of nik</h2>
+            <picture>
+                <source media="(min-width:1200px)" srcset="images/nik-desktop.jpg">
+                <source media="(min-width:768px)" srcset="images/nik-tablet.jpg">
+                <source media="(min-width:0px)" srcset="images/nik-mobile.jpg">
+                <img src="images/nik-mobile.jpg" alt="nik himself">
+            </picture>
+        </div>
+        <div id="abt-me-text" class="col-span-2 m-col-span-6 l-col-span-6 xl-col-span-6">
+            <h2 class="hidden">about me</h2>
+            <h2>Need unique eye catching design work?<br>You're in the right place!</h2>
+            <p>
+                I am a front end developer who specializes in graphic design, branding, and motion design! I use Adobe
+                Creative Suite and Cinema 4D to create designs for all your needs. Contact in the form below, and lets
+                work together to bring your ideas to life!<br><br>- Nikolai Meijer
+            </p>
+        </div>
+    </section>
 </body>
 
 </html>
