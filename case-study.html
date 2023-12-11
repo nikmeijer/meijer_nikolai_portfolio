@@ -11,12 +11,110 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"></script>
     <script src="js/main.js"></script>
 </head>
-<!--Trying a youtube tutorial to do this page-->
+<!-- Naming convention warning for the profs: cs in ID's and classes stands for case study, just to clarify my choice of naming convention -->
 
 <body>
+    <h1 class="hidden">Nikolai Meijer's Portfolio Case Study</h1>
+    <section id="gsap">
+        <div class="cursor"></div>
+    </section>
+    <header class="grid-con">
+        <h2 class="hidden">Header</h2>
+        <div id="header-logo" class="col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 ">
+            <img id="logo" src="images/nm-logo.svg" alt="N M Logo">
+        </div>
+        <nav class="m-col-span-9 l-col-span-9 xl-col-span-9 ">
+            <h2 class="hidden">Nav</h2>
+            <ul>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="case-stud.html">Case Study</a></li>
+                <li><a href="index.html#abt-me">About Me</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
 
-    <div class="main-container"></div>
+        <!-- Mobile Menu -->
+        <div id="mobile-nav" class="col-span-2">
+            <input type="checkbox" id="overlay-input">
+            <label for="overlay-input" id="overlay-button"><span></span></label>
+            <div id="overlay">
+                <ul>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="case-study.html">Case Study</a></li>
+                    <li><a href="index.html#abt-me">About Me</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Mobile Menu -->
+    </header>
 
+    <main>
+        <section id="cs-hero" class="hero">
+            <h2 class="hidden">Hero Image</h2>
+            <div id="study-hero-img" class="col-span-full m-col-span-full l-col-span-full xl-col-span-full">
+                <picture>
+                    <source media="(min-width:1200px)" srcset="images/quatro-hero-large-fit.jpg">
+                    <source media="(min-width:768px)" srcset="images/quatro-hero-tablet.jpg">
+                    <source media="(min-width:0px)" srcset="images/quatro-hero-mobile.jpg">
+                    <img src="images/quatro-hero-mobile.jpg" alt="cans of quatro">
+                </picture>
+                <h2 class="left">Quatro Brand Refresh</h2>
+            </div>
+        </section>
+
+        <section id="products" class="grid-con">
+            <h2 class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12">Four Fresh Flavours</h2>
+            <div id="greentea" class="col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 ">
+                <img src="images/product-1.jpg" alt="Quatro Product 1">
+                <h3>Fresh Green Tea</h3>
+                <button>Add to Cart</button>
+            </div>
+            <div id="orangegf" class="col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 ">
+                <img src="images/product-2.jpg" alt="Quatro Product 2">
+                <h3>Bold Orange-Grapefruit</h3>
+                <button>Add to Cart</button>
+            </div>
+            <div id="lychee" class="col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 ">
+                <img src="images/product-3.jpg" alt="Quatro Product 3">
+                <h3>Lychee Breeze</h3>
+                <button>Add to Cart</button>
+            </div>
+            <div id="lemonlime" class="col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 ">
+                <img src="images/product-4.jpg" alt="Quatro Product 4">
+                <h3>Lemon-Lime Twist</h3>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+        <h3 id="cs-subtitle" class="col-span-4 m-col-span-6 l-col-span-6 xl-col-span-6">The Inspiration:</h3>
+        <p id="cs-caption" class="col-span-4 m-col-span-6 l-col-span-6 xl-col-span-6">The flavour ideas were
+            inspired by Quatro's
+            original four fruit theme. I realized I could split it up
+            into four new modern flavours with refreshed bright colours!<br><br>As you can see above, I created
+            realistic simulations of beverage cans including all new custom packaging with custom made graphics. I
+            really enjoyed playing with words trying to find flavour names that roll off the tongue.<br><br>I learned a
+            lot from this project. It was my first time putting together a brand almost completely from scratch. I
+            really enjoyed working from a pre-established base and making something new. Quatro helped me realize my
+            passion for brand design!<br><br>-Nikolai Meijer</p>
+    </main>
+
+    <footer class="grid-con">
+        <h2 class="hidden">Footer</h2>
+        <div id="footer-logo" class="col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 ">
+            <img id="logo" src="images/nm-logo.svg" alt="N M Logo">
+        </div>
+        <nav class="m-col-span-9 l-col-span-9 xl-col-span-9 ">
+            <h2 class="hidden">Nav</h2>
+            <ul>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="case-study.html">Case Study</a></li>
+                <li><a href="index.html#abt-me">About Me</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="www.linkedin.com/in/nikolai-meijer"><img id="linkedin" src="images/linkedin-littler.png"
+                            alt="linkedin logo"></a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 
 </html>
