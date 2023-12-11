@@ -37,7 +37,7 @@
         <nav class="m-col-span-9 l-col-span-9 xl-col-span-9 ">
             <h2 class="hidden">Nav</h2>
             <ul>
-                <li><a href="projects.html">Products</a></li>
+                <li><a href="#">Gallery</a></li>
                 <li><a href="case-stud.html">Case Studies</a></li>
                 <li><a href="index.html#abt-me">About Me</a></li>
                 <li><a href="index.html#contact">Contact</a></li>
@@ -50,7 +50,7 @@
             <label for="overlay-input" id="overlay-button"><span></span></label>
             <div id="overlay">
                 <ul>
-                    <li><a href="projects.html">Products</a></li>
+                    <li><a href="#">Gallery</a></li>
                     <li><a href="case-stud.html">Case Studies</a></li>
                     <li><a href="index.html#abt-me">About Me</a></li>
                     <li><a href="index.html#contact">Contact</a></li>
@@ -61,20 +61,26 @@
     </header>
 
     <section id="hero" class="grid-con">
-        <h2 class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12">Nice to meet you!</h2>
+        <h2 class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12">
+            Nice to meet you!
+        </h2>
         <h3 class="col-span-2 m-col-span-6 l-col-span-6 xl-col-span-6">
             My name is
         </h3>
-        <p id="name" class="col-span-2 m-col-span-6 l-col-span-6 xl-col-span-6">Nikolai Meijer</p>
+        <p id="name" class="col-span-2 m-col-span-6 l-col-span-6 xl-col-span-6">
+            Nikolai Meijer
+        </p>
         <p id="hero-cta" class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12">I'm the designer you've been
-            looking for.</p>
-        <p id="pls-scroll" class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12"><a
-                href="index.html#abt-me">Learn
-                More<br>V</a></p>
+            looking for.
+        </p>
+        <p id="pls-scroll" class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12">
+            <a href="index.html#abt-me">Learn More<br>V
+            </a>
+        </p>
     </section>
     <section id="abt-me" class="grid-con">
         <h2 class="hidden">About me</h2>
-        <div id="pic-of-me" class="col-span-2 m-col-span-6 l-col-span-6 xl-col-span-6">
+        <div id="pic-of-me" class="col-span-4 m-col-span-6 l-col-span-6 xl-col-span-6">
             <h2 class="hidden">photo of nik</h2>
             <picture>
                 <source media="(min-width:1200px)" srcset="images/nik-desktop.jpg">
@@ -83,7 +89,7 @@
                 <img src="images/nik-mobile.jpg" alt="nik himself">
             </picture>
         </div>
-        <div id="abt-me-text" class="col-span-2 m-col-span-6 l-col-span-6 xl-col-span-6">
+        <div id="abt-me-text" class="col-span-4 m-col-span-6 l-col-span-6 xl-col-span-6">
             <h2 class="hidden">about me</h2>
             <h2>Need unique eye catching design work?<br>You're in the right place!</h2>
             <p>
@@ -93,6 +99,50 @@
             </p>
         </div>
     </section>
+    <section id="gallery-preview" class="grid-con">
+        <h2 class="hidden">Recent Work</h2>
+        <img class="project col-span-2 m-col-span-3 l-col-span-3 xl-col-span-12" src="images/proj-sport.jpg"
+            alt="sport intro project thumbnail">
+        <img class="project col-span-2 m-col-span-3 l-col-span-3 xl-col-span-12" src="images/proj-quatro.jpg"
+            alt="quatro brand project thumbnail">
+        <img class="project col-span-2 m-col-span-3 l-col-span-3 xl-col-span-12" src="images/proj-buds.jpg"
+            alt="earbuds  project thumbnail">
+        <img class="project col-span-2 m-col-span-3 l-col-span-3 xl-col-span-12" src="images/proj-elin.jpg"
+            alt="elin brand project thumbnail">
+    </section>
+    <section id="contact">
+        <h2 class="m-col-span-12 l-col-span-12 xl-col-span-12">Let's make your ideas happen!</h2>
+        <div id="contact-form" class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12">
+            <form action="submit-form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="subject">Subject:</label>
+                <textarea id="subject" name="subject" required></textarea>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    <footer class="grid-con">
+        <h2 class="hidden">Footer</h2>
+        <div id="footer-logo" class="col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 ">
+            <img id="logo" src="images/nm-logo.svg" alt="N M Logo">
+        </div>
+        <nav class="m-col-span-9 l-col-span-9 xl-col-span-9 ">
+            <h2 class="hidden">Nav</h2>
+            <ul>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="case-stud.html">Case Studies</a></li>
+                <li><a href="index.html#abt-me">About Me</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="www.linkedin.com/in/nikolai-meijer"><img id="linkedin" src="images/linkedin-littler.png"
+                            alt="linkedin logo"></a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 
 </html>

@@ -1,0 +1,66 @@
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/contact-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2em;
+}
+
+#contact h2 {
+    font-size: 2em;
+    color: #ff866a;
+    font-weight: bold;
+    margin-right: 2em;
+    background-color: #fff;
+}
+
+#contact label {
+    color: darkblue;
+    font-size: 1.5em;
+}
+
+#contact form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    background-color: lightblue;
+    padding: 2em;
+    margin-top: 5em;
+    margin-bottom: 10em;
+}
+
+#contact input,
+#contact textarea {
+    max-width: 30em;
+    padding: 1em;
+    font-size: 1em;
+    border: none;
+    background-color: #f2f2f2;
+    margin-bottom: 2em;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    outline: none;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact button {
+    display: block;
+    padding: 1em 2em;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#contact button:hover {
+    background-color: lightblue;
+}
