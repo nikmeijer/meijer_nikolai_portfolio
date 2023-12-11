@@ -1,7 +1,6 @@
 #hero {
     background-image: url('../images/hero-bg.jpg');
     background-blend-mode: overlay;
-    color: white;
     text-decoration: none;
 }
 
@@ -12,6 +11,7 @@
 }
 
 #hero h2 {
+    color: white;
     text-align: center;
     font-size: 5.6em;
     margin-top: 100px;
@@ -19,6 +19,7 @@
 }
 
 #hero h3 {
+    color: white;
     font-size: 4em;
     padding-bottom: 10px;
     text-align: right;
@@ -40,23 +41,28 @@
 }
 
 #hero-cta {
+    color: white;
     font-size: 2.6em;
     text-align: center;
     padding-top: 120px;
 }
 
 #pls-scroll {
+    text-align: center;
     padding-top: 4em;
     padding-bottom: 4em;
     padding-left: 40%;
     padding-right: 40%;
-    font-size: 1em;
-    text-align: center;
-    color: rgba(0, 0, 0, 0)
 }
 
-#pls-scroll:hover {
+#pls-scroll a {
+    text-decoration: none;
     color: lightblue;
+    font-size: 2em;
+}
+
+#pls-scroll a:hover {
+    color: #ff866a;
     font-weight: bold;
 }
 
