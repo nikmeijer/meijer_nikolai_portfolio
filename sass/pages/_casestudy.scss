@@ -1,0 +1,112 @@
+#study-hero-img {
+    height: 720px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#study-hero-img h2 {
+    color: #fff;
+    padding: 1em;
+    font-size: 4em;
+    font-weight: bolder;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-top: -3em;
+}
+
+#study-hero-img h2.left {
+    align-self: flex-start;
+    justify-self: start;
+}
+
+/* PRODUCTS START HERE */
+
+/* 5. ---Homepage Products Section--- */
+
+#greentea {
+    color: #69d065;
+}
+
+#orangegf {
+    color: #ffaf1e;
+}
+
+#lychee {
+    color: #ffbbdd;
+}
+
+#lemonlime {
+    color: #fff100;
+}
+
+#products {
+    font-size: 1em;
+    margin-top: -5em;
+    margin-bottom: 1em;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#products h2 {
+    padding: 0.5em;
+    color: #fff;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+#products img {
+    width: 85%;
+    margin-bottom: 1em;
+    border-radius: 2em;
+    ;
+}
+
+#products h3 {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#products p {
+    font-size: 12px;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+#products button {
+    align-self: flex-end;
+    padding: 1em 1em;
+    margin-bottom: 2em;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    border-radius: 0.5em;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#products button:hover {
+    background-color: #d2d2d2;
+}
+
+#cs-subtitle {
+    padding: 10px;
+    color: lightblue;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#cs-caption {
+    padding: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: darkblue;
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 1em;
+}
